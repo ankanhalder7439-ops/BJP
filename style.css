@@ -23,4 +23,4 @@
 .kl h3{font-family:"Gabarito"; color:rgb(255, 38, 0);margin-top: 1px;}
 .card:hover{height:832px;width:845px;box-shadow:0 0 10px 5px black;border-radius: 30px;transform:translateY(-10px);}
 .dd{height:2480px;width:100%;border-radius: 10px;background-color:rgba(255, 165, 100, 0.831) ;border:3px solid rgb(255, 38, 0);transition: all ease-in 0.2s ;}
-.dd:hover{height:2480px;width:100%;border-radius: 10px;background:linear-gradient(to bottom, orange, white, green);border:3px solid rgb(255, 38, 0);transform:translateX(10px);}
+.dd:hover{height:2480px;width:100%;border-radius: 10px;background:linear-gradient(to bottom, orange, white, rgb(0, 59, 0));border:3px solid rgb(255, 38, 0);transform:translateX(10px);}
