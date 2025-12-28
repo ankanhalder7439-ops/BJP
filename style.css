@@ -1,0 +1,26 @@
+.body{height:2909px;width:1920px;background-color: rgb(255, 255, 255);margin:0;padding:0}
+.header{height:64px;width:1280px;margin-top:50px;margin-left: 320px;display:flex;justify-content: space-between;align-items: center;}
+.container{display: flex; height:2800px;width:1280px;background-color: rgb(0, 0, 0);margin-left: 320px;min-height: 100vh;}
+.left{height:2800px;width:70%;background-color: rgb(255, 255, 255);min-height: 100vh;display: flex;align-items: center;flex-direction: column;gap:50px}
+.card{height:832px;width:845px;box-shadow:0 0 10px 5px black;border-radius: 30px;transition: all 0.1s ease ;}
+.card img{height:auto;width:100%;border-radius: 30px 30px 0 0;}
+.name{width:845px;height:10%;background-color: rgb(255, 255, 255);display:flex;align-items: center;position: relative;}
+.txt{width:100%;height:30%;background:linear-gradient(to top, rgb(255, 115, 34), white);border-radius: 0 0 30px 30px;}
+.txt h2{font-family: "LEMON MILK";font-size: 26px;margin-top: 19px;padding:5px 30px}
+.txt p{font-family: "Gabarito";font-size: 15px;gap:5px;display: inline;margin-left: 29px;font-weight: bold;color:rgb(255, 255, 255);}
+.name img{height:55px;width:55px;border-radius: 50px;border:2px solid rgb(246, 74, 0);margin-left: 17px;margin-top: -3px;padding:2px}
+.hdn{margin-left: 10px;background-color: rgb(255, 255, 255);}
+.hdn h2{margin-top: 13px;}
+.hdn p{font-size: 18px;margin-top:-18px}
+.stat{margin-left:auto;margin-right: 90px;font-size: 16px;font-family: "Gabarito", sans-serif;color:rgb(137, 131, 131);margin-top:8px}
+.fa-bookmark{position: absolute;color:rgb(137, 131, 131);margin-top:-55px;font-size: 21px;margin-left:760px}
+.fa-bookmark:hover{position: absolute;color:rgb(0, 0, 0);margin-top:-55px;font-size: 21px;margin-left:760px}
+.txt u{color:blueviolet;font-size: 20px;margin-left: 29px;}
+.right{height:2800px;width:30%;background-color: rgb(255, 255, 255);min-height: 100vh;display: flex;align-items: center;flex-direction: column;}
+.minst{height:118px;width:351px;background-color: white;border-radius: 10px;margin-left: 14px;border:3px solid rgb(255, 38, 0);display:flex; flex-direction: column;}
+.kl{display: flex;justify-content: center;}
+.kl h2{font-family:"Gabarito"; color:rgb(255, 38, 0)}
+.kl h3{font-family:"Gabarito"; color:rgb(255, 38, 0);margin-top: 1px;}
+.card:hover{height:832px;width:845px;box-shadow:0 0 10px 5px black;border-radius: 30px;transform:translateY(-10px);}
+.dd{height:2480px;width:100%;border-radius: 10px;background-color:rgba(255, 165, 100, 0.831) ;border:3px solid rgb(255, 38, 0);transition: all ease-in 0.2s ;}
+.dd:hover{height:2480px;width:100%;border-radius: 10px;background:linear-gradient(to bottom, orange, white, green);border:3px solid rgb(255, 38, 0);transform:translateX(10px);}
